@@ -1,0 +1,30 @@
+.container__wrapper{
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    display: flex;
+}
+.content__block--flex{
+    display: flex;
+}
+.block__white{
+    width: 30%;
+    background-color: #232323;
+    padding: 46px;
+}
+.block__white li{
+    text-align: inherit;
+    color: #767676;
+}
+.block__grey{
+    color: #979797;
+    width: 70%;
+    background-color: #232323;
+    padding: 46px;
+}
+.block__Russian img{
+    width: 52px;
+    height: 29px;
+    position: relative;
+    left: 367px;
+}

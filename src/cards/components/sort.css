@@ -1,0 +1,235 @@
+.sortpopup__wrapper{
+    height: 200px;
+    width: 400px;
+    /* overflow: scroll; */
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    /* margin: auto; */
+    margin-top: 10;
+    top: 40%;
+    left: 40%;
+    box-shadow: 0px 4px 15px -8px rgb(0 0 3 / 50%);
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+.ul--block li{
+    font-size: 20px;
+    cursor: pointer;
+}
+.sortpopup__wrapper-container{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32 32 32 / 38%);
+}
+.sortpopup__block{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sortpopup__block2{
+    display: flex;
+    justify-content: center;
+}
+.sort__span2{
+    border-radius: 15px;
+    width: 410px;
+    height: 50px;
+    border: 0px solid #ffffff;
+    background: #EBEBEB;
+    color: rgb(117 117 117);
+    padding: 12px 0px 3px 52px;
+    box-shadow: 0px 4px 10px -8px rgb(0 0 0 / 80%);
+}
+
+li .active{ 
+    background: #FFED50;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+.sort__span{
+    border-radius: 15px;
+    width: 410px;
+    height: 50px;
+    border: 0px solid #ffffff;
+    background: #EBEBEB;
+    color: rgb(117 117 117);
+    padding: 12px 0px 3px 52px;
+    box-shadow: 0px 4px 10px -8px rgb(0 0 0 / 80%);
+}
+
+li{
+    list-style-type: none;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+}
+/* .menu{
+    background-color: rgb(15 37 53 / 88%);
+    position: fixed;
+}
+.menu.active{
+    transform: translateY(0);
+}
+.menu{
+    background-color: #120e01e6;
+    position: fixed;
+    width: 96%;
+    height:  88vh;
+    top: 60px;
+    border-radius: 30px;
+    right: 7px;
+    transform: translateY(-110%);
+    transition: all 0.4s;
+    transition: 0.3s;
+}
+.menu.active{
+    transform: translateY(0);
+    transition: 0.3s;
+} */
+/*----------------------QuestionBlock-----------------------*/
+.question__block{
+    /* position: absolute; */
+    /* top: 367px;
+    left: 124px; */
+}
+.question__block svg{
+    color: darkgrey;
+}
+/* .icon__svg svg{
+    position: relative;
+    right: 31px;
+    top: 11px;
+ } */
+.icon__svg{
+    cursor: pointer;
+    position: relative;
+    top: 27px;
+    left: -180px;
+}
+.icon__svg--outline{
+    cursor: pointer;
+    position: relative;
+    top: 27px;
+    left: 44px;
+}
+
+
+.sortpopup__wrapper-quest{
+    height: 186px;
+    width: 360px;
+    background: #7e7e7e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* margin: auto; */
+    margin-top: 10;
+    top: 388px;
+    z-index: 1;
+    left: 493px;
+    box-shadow: 0px 4px 15px -8px rgb(0 0 3 / 50%);
+}
+.sortpopup__wrapper-quest p{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+/*----------------------QuestionBlock-----------------------*/
+
+
+
+
+
+/*===========стили div в cards Repair.jsx=============*/
+/*------------Блок repair max-width: 1280-------------*/
+.wrapper__content-repair{
+    width: 600px;
+    height: auto;
+    background: #5A5A5A;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 10px;
+  }
+  .content-registr-repair{  
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border-radius: 20px;
+  }
+  /*------------Блок repair max-width: 1280-------------*/
+  .repair__page-img  {
+    width: 183px;
+    height: 186px;
+  }
+  
+  
+  .input__time-date input{
+    margin: 8px 2px 10px 2px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: 0px solid #ffffff;
+    background: #EBEBEB;
+    color: rgb(117 117 117);
+    padding: 0px 0px 3px 52px;
+    box-shadow: 0px 4px 10px -8px rgb(0 0 0 / 80%);
+  }
+  .input__time-date {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+  }
+  .block__time-date{
+    display: flex;
+    justify-content: center;
+  }   
+  textarea{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 410px;
+    height: 100px;
+    border: 0px solid #ffffff;
+    background: #EBEBEB;
+    color: rgb(117 117 117);
+    padding: 14px 0px 3px 52px;
+    box-shadow: 0px 4px 10px -8px rgb(0 0 0 / 80%);
+  
+  }
+
+  
+  
+  
+
+
+
+/*===========стили div в cards Repair.jsx=============*/
+
+
+
+/*===========стили div в cards QuestionBlock.jsx задаю стили active выбор времени=============*/
+.active__p.active{
+    width: 230px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeb49;
+    border-radius: 10px;
+}
+
+
+.section__items{
+    cursor: pointer;
+    width: 230px;
+    margin: auto;
+}
+/*===========стили div в cards QuestionBlock.jsx задаю стили active выбор времени=============*/

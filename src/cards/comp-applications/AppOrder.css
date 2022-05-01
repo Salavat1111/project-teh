@@ -1,0 +1,198 @@
+/*===========стили div в cards СardOrder.jsx=============*/
+.content__order-visible{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.order__block--visible{
+    width: 80%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bl__text--order p{
+font-size: 25px;
+}
+.bl__text--order {
+    display: flex;
+    width: inherit;
+    justify-content: space-around;
+    align-items: center; 
+    width: 90%;
+    }
+.block__order-section{
+    width: 15%;
+    font-weight: 100;
+}
+
+
+
+.svg__order--bl svg{
+    position: relative;
+    top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.svg__icons.active{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.svg__icons{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+.order--bl.active{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 16px;
+    background-color: #5a5a5a;
+    padding-bottom: 20px;
+}
+
+.order--bl.active .order__block--visible{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+/* .param {
+    margin: 0px 200px;
+    color:#FFF8DC
+}
+.paramName {
+    float: left;
+    margin: revert;
+    margin-right: 40px;
+}
+.paramData {
+    float: left;
+    margin: revert;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.paramStatus {
+    float: left;
+    margin: revert;
+    margin-left: 40px;
+    margin-right: 40px;
+} */
+/*мини блок выподающего меню с даными*/
+.block__address{
+    width: 60%;
+    display: flex;
+    margin: 10px auto;
+    background: #fff;
+    height: 50px;
+    align-items: center;
+    border-radius: 11px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.addres{
+    border-radius: 10px;
+    display: flex;
+    padding: 0px 26px;
+    margin: 0px 30px 0px 0px;
+    width: 100px;
+    background: #8A8A8A;
+    height: 50px;
+    align-items: center;
+}
+.addres p{
+    color: #fff;
+    font-weight: 100;
+}
+.time__block p{
+    color: #fff;
+    font-weight: 100;
+}
+.block__time__date{
+    margin: auto;
+    display: flex;
+    width: 60%;
+}
+.section__block__time{
+    width: 400px;
+    display: flex;
+    background: #fff;
+    height: 50px;
+    align-items: center;
+    border-radius: 11px;
+    margin-right: 10px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.section__block__date{
+    width: 400px;
+    display: flex;
+    background: #fff;
+    height: 50px;
+    align-items: center;
+    border-radius: 11px;  
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.time__block{
+    border-radius: 10px;
+    display: flex;
+    padding: 0px 26px;
+    margin: 0px 30px 0px 0px;
+    width: 100px;
+    background: #8A8A8A;
+    height: 50px;
+    align-items: center;
+}
+
+
+.block__textarrey{
+    width: 60%;
+    display: flex;
+    margin: 10px auto;
+    background: #fff;
+    height: 170px;
+    border-radius: 11px;
+    flex-direction: column;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.textarrey__text{
+    padding: 14px 10px 26px 20px;
+}
+.texterrey{
+    border-radius: 10px;
+    display: flex;
+    /* padding: 0px 26px; */
+    /* margin: 0px 30px 0px 0px; */
+    width: 100%;
+    background: #8A8A8A;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.texterrey p{
+    color: #fff;
+    font-weight: 100;
+}
+
+/* 
+
+.texterrey{
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    background: #8A8A8A;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+} */
+/*мини блок выподающего меню с даными*/
